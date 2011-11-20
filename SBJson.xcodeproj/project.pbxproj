@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BC12324B1391D5CC00131607 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC1232491391D5CC00131607 /* InfoPlist.strings */; };
-		BC1232561391D5CC00131607 /* SBJson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC12323D1391D5CC00131607 /* SBJson.framework */; };
+		BC1232561391D5CC00131607 /* SBJson in Frameworks */ = {isa = PBXBuildFile; fileRef = BC12323D1391D5CC00131607 /* SBJson */; };
 		BC12325C1391D5CC00131607 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC12325A1391D5CC00131607 /* InfoPlist.strings */; };
 		BC88513F1391D6CD00370E55 /* NSObject+SBJson.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8851251391D6CD00370E55 /* NSObject+SBJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC8851401391D6CD00370E55 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8851261391D6CD00370E55 /* NSObject+SBJson.m */; };
@@ -86,7 +86,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BC12323D1391D5CC00131607 /* SBJson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SBJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC12323D1391D5CC00131607 /* SBJson */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.framework; path = SBJson; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC1232481391D5CC00131607 /* SBJson-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBJson-Info.plist"; sourceTree = "<group>"; };
 		BC12324A1391D5CC00131607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC12324C1391D5CC00131607 /* SBJson-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBJson-Prefix.pch"; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC1232561391D5CC00131607 /* SBJson.framework in Frameworks */,
+				BC1232561391D5CC00131607 /* SBJson in Frameworks */,
 				BCC2626413920F25003D9994 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,7 +183,7 @@
 		BC12323E1391D5CC00131607 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC12323D1391D5CC00131607 /* SBJson.framework */,
+				BC12323D1391D5CC00131607 /* SBJson */,
 				BC1232521391D5CC00131607 /* SBJsonTests.octest */,
 				BCC2626913920FC7003D9994 /* libsbjson-ios.a */,
 				BCC2627313920FC7003D9994 /* sbjson-iosTests.octest */,
@@ -395,7 +395,7 @@
 			);
 			name = SBJson;
 			productName = SBJson;
-			productReference = BC12323D1391D5CC00131607 /* SBJson.framework */;
+			productReference = BC12323D1391D5CC00131607 /* SBJson */;
 			productType = "com.apple.product-type.framework";
 		};
 		BC1232511391D5CC00131607 /* SBJsonTests */ = {
